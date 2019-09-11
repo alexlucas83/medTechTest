@@ -1,0 +1,35 @@
+.LeftNav {
+  .nav-link {
+    border: 1px solid rgb(3, 71, 48) !important;
+    width: 170px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 20px;
+    background-color: rgb(163, 211, 238);
+    color: black;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+
+  .nav-link:hover {
+    background-color: rgb(233, 133, 67) !important;
+  }
+
+  .patients {
+    margin-bottom: 50px;
+  }
+
+  .nav1 {
+    border-top: 3px solid rgb(3, 71, 48) !important;
+    padding-top: 30px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .flex-column {
+    align-items: center !important;
+  }
+}

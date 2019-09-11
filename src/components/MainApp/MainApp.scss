@@ -1,0 +1,84 @@
+.MainApp {
+  text-align: center;
+  padding-top: 20px;
+
+  .titleMainApp {
+    border: 2px solid rgba(3, 71, 48, 0.253) !important;
+    width: 680px;
+  }
+
+  .MainApp1 {
+    padding-left: 180px;
+    font-size: 22px;
+  }
+
+  .buttonMainApp {
+    width: 240px;
+    border: 2px solid rgba(3, 71, 48, 0.253) !important;
+    height: 150px;
+    padding-top: 45px !important;
+    padding-bottom: 45px !important;
+    font-size: 30px;
+    border-radius: 30px;
+    color: black;
+  }
+
+  .buttonMainApp1 {
+    width: 240px;
+    border: 2px solid rgba(3, 71, 48, 0.253) !important;
+    height: 150px;
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+    font-size: 30px;
+    border-radius: 30px;
+    color: black;
+  }
+
+  .buttonMainApp:hover {
+    background-color: rgb(233, 133, 67);
+  }
+
+  .buttonMainApp1:hover {
+    background-color: rgb(233, 133, 67);
+  }
+
+  .container {
+    padding-top: 35px;
+  }
+
+  .row {
+    padding-bottom: 100px;
+  }
+
+
+  @media (max-width: 576px) {
+    .MainApp {
+      align-items: center !important;
+    }
+
+    .container {
+      width: 300px !important;
+    }
+
+    .MainApp1 {
+      padding-left: 60px !important;
+    }
+
+    .titleMainApp {
+      width: 200px !important;
+    }
+
+    .col-md-5 {
+      padding-bottom: 30px;
+    }
+
+    .row {
+      padding-bottom: 0px;
+    }
+
+    .offset-2 {
+      margin-left: 0px !important;
+    }
+
+  }
+}

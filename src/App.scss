@@ -1,0 +1,32 @@
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.App {
+  border: 2px solid rgba(3, 71, 48, 0.253);
+  margin: 5px 10px 5px 10px;
+
+  .col-lg-10.MainApp {
+    border-left: 6px solid rgb(3, 71, 48);
+    left: 20px;
+  }
+
+  @media (max-width: 576px) {
+    .col-lg-10.MainApp {
+      border-left: none;
+    }
+
+
+  }
+}

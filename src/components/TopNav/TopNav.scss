@@ -1,0 +1,40 @@
+.TopNavlogo1 {
+  width: 50px;
+  margin-top: 12px;
+}
+
+.TopNav {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+.TopNav {
+  border-bottom: 3px solid rgb(3, 71, 48);
+}
+
+.TopNavButton {
+  text-align-last: right;
+  padding-top: 15px;
+  padding-right: 30px !important;
+  padding-bottom: 15px;
+  border-left: 6px solid rgb(3, 71, 48);
+  left: 10px;
+
+  button {
+    background-color: rgb(163, 211, 238);
+    height: 50px;
+    font-size: 12px;
+    border-radius: 10px;
+  }
+
+  button:hover {
+    background-color: rgb(233, 133, 67) !important;
+  }
+
+  .Accueil {
+    background-color: rgb(233, 133, 67);
+    color: black;
+    margin-right: 800px;
+  }
+
+}
